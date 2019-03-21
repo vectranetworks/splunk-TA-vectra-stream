@@ -4,7 +4,7 @@ plugins {
 
 ext {
     distVersion = "${version}"
-    distName = "TA-vectra-cognito-stream--${version}.spl"
+    distName = "TA-vectra-cognito-stream-${version}.spl"
 }
 
 task createDist(type: Tar, group: "Custom", description: "Creates the distribution archive") {
