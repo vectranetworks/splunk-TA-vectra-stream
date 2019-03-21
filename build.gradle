@@ -4,7 +4,7 @@ plugins {
 
 ext {
     distVersion = "${version}"
-    distName = "TA-vectra-cognito-${version}.spl"
+    distName = "TA-vectra-cognito-stream--${version}.spl"
 }
 
 task createDist(type: Tar, group: "Custom", description: "Creates the distribution archive") {
@@ -14,33 +14,33 @@ task createDist(type: Tar, group: "Custom", description: "Creates the distributi
     archiveName = "${distName}"
     compression = Compression.GZIP
 
-    into("TA-vectra-cognito/default") {
+    into("TA-vectra-cognito-stream/default") {
         from "src/default/"
         exclude '**/.DS_Store'
         filter{ it.replaceAll('@version@', distVersion)}
         fileMode = 0644
     }
 
-    into("TA-vectra-cognito/metadata") {
+    into("TA-vectra-cognito-stream/metadata") {
         from "src/metadata/"
         exclude 'local.meta', '**/.DS_Store'
         fileMode = 0644
     }
 
-    into("TA-vectra-cognito/static") {
+    into("TA-vectra-cognito-stream/static") {
         from "src/static/"
         exclude '**/.DS_Store'
         fileMode = 0644
     }
 
-    into("TA-vectra-cognito/") {
+    into("TA-vectra-cognito-stream/") {
         from "README.md"
         exclude '**/.DS_Store'
         filter{ it.replaceAll('@version@', distVersion)}
         fileMode = 0644
     }
 
-    into("TA-vectra-cognito/") {
+    into("TA-vectra-cognito-stream/") {
         from "LICENSE"
         exclude '**/.DS_Store'
         fileMode = 0644
