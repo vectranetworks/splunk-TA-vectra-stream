@@ -46,6 +46,10 @@
 
   * Initial Release
 
+* **1.0.1 / 2019-03-28** mbo
+
+  * Minor bug fixes
+
 
 ## Change Log
 
@@ -53,3 +57,6 @@
 
   * Initial Release
   
+* **1.0.1 / 2019-03-28** mbo
+
+  * Typos fixed
