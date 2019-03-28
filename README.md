@@ -50,6 +50,10 @@
 
   * Minor bug fixes
 
+* **1.0.2 / 2019-03-28** mbo
+
+  * Minor bug fix  
+
 
 ## Change Log
 
@@ -60,3 +64,7 @@
 * **1.0.1 / 2019-03-28** mbo
 
   * Typos fixed
+
+* **1.0.2 / 2019-03-28** mbo
+
+  * Duplicate eventtype removed
