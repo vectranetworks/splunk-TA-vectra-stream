@@ -54,6 +54,10 @@
 
   * Minor bug fix  
 
+* **1.0.3 / 2019-05-22** mbo
+
+  * Minor bug fix
+
 
 ## Change Log
 
@@ -68,3 +72,8 @@
 * **1.0.2 / 2019-03-28** mbo
 
   * Duplicate eventtype removed
+
+
+* **1.0.3 / 2019-05-22** mbo
+
+  * Linemerging disabled
